@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(0, 0, 33);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 4rem;
+  background-color: rgb(18, 18, 62);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  /* overflow: hidden; */
+  z-index: 1;
+}
+
+.right ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.right ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.right ul li {
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.left {
+  font-size: 1.35rem;
+}
+
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5rem 0;
+}
+
+.firstSection > div {
+  width: 30%;
+}
+
+.firstLeft {
+  /* background-color: red; */
+  font-size: 2.5rem;
+}
+
+.firstRight img {
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+  margin: 1rem 0;
+}
+
+.purple {
+  color: rgb(168, 51, 215);
+}
+#element {
+  color: rgb(168, 51, 215);
+}
+hr {
+  border: 0;
+  height: 1px;
+  background: #6363a3;
+  margin: 1rem 5rem;
+}
+/* second section start */
+.secondSection {
+  max-width: 80vh;
+  margin-top: 4rem;
+  margin-left: 8rem;
+  height: 80vh;
+}
+.about {
+  font-size: 1.9rem;
+  margin-top: 1rem;
+}
+.para_about_me {
+  width: 45rem;
+  color: var(--dark-content, #666);
+  font-family: Poppins;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem; /* 144.444% */
+}
+.btech {
+  width: 44rem;
+  height: 4.6875rem;
+  flex-shrink: 0;
+  /* border: 2px solid red; */
+  margin: 1rem 0;
+}
+.degree {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.degree p {
+  color: var(--dark-content, #666);
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75rem; /* 140% */
+  letter-spacing: 0.0625rem;
+}
+
+.college_name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.college_name p {
+  color: var(--light-content, #a7a7a7);
+  font-size: 15px;
+  line-height: 1.75rem;
+  letter-spacing: 0.0625rem;
+}
+
+/* 3rd section */
+.thirdSection {
+  max-width: 80vh;
+  margin-top: 4rem;
+  margin-left: 8rem;
+  height: 80vh;
+}
+.thirdSection h1 {
+  font-size: 1.9rem;
+  margin-top: 1rem;
+}
+.thirdSection p {
+  color: var(--dark-content, #666);
+  margin: 0.5rem 0;
+}
+.box {
+  display: flex;
+  /* justify-content: center;
+    align-items: center; */
+  flex-direction: column;
+  margin: 0 1rem;
+}
+.box label {
+  margin-left: 30px;
+}
+.box img {
+  height: 7rem;
+  width: 7rem;
+}
+.techStack {
+  display: inline-flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* border: 2px solid; */
+  width: 80vw;
+  margin-top: 2rem;
+}
+
+/* fourth section */
+.fourthSection {
+  max-width: 80vh;
+  margin-top: 4rem;
+  margin-left: 8rem;
+  height: 80vh;
+}
+.fourthSection h1 {
+  font-size: 1.9rem;
+  margin-top: 1rem;
+}
+.fourthSection p {
+  color: var(--dark-content, #666);
+  margin: 0.5rem 0;
+}
+
+.title {
+  font-size: 1.6rem;
+  color: rgb(134, 96, 24);
+  font-weight: 400;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.description {
+  font-size: 1rem;
+  color: rgb(169, 159, 159);
+  margin: 1rem 0;
+  padding: 1rem;
+  /* border: 2px solid; */
+}
+.tech-stack {
+  font-size: 1rem;
+  color: rgb(169, 159, 159);
+  /* margin: 1rem 0; */
+  margin-left: 15px;
+}
+.tech-heading {
+  color: rgb(134, 96, 24);
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+.visit a {
+  text-decoration: none;
+  color: rgb(134, 96, 24);
+  /* margin-top: 10px; */
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+.projects {
+  width: 80vw;
+  /* display: inline-flex; */
+  /* justify-content: space-around; */
+  align-items: center;
+  /* border: 2px solid; */
+  display: flex;
+}
+.project {
+  /* border: 2px solid; */
+  width: 25rem;
+  height: 29rem;
+  /* height: fit-content; */
+  background-color: rgb(18, 18, 62);
+  border: none;
+  margin: 0 1rem;
+  border-radius: 20px;
+}
+
+/* section 5th  */
+.fiveSection {
+  max-width: 80vh;
+  margin-top: 4rem;
+  margin-left: 8rem;
+  height: 80vh;
+}
+.fiveSection h1 {
+  font-size: 1.9rem;
+  margin-top: 1rem;
+}
+.contact-me {
+  /* border: 2px solid red; */
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: rgb(134, 96, 24);
+}
+.email img {
+  height: 2rem;
+  width: auto;
+}
+.whatsapp img {
+  height: 2.5rem;
+  width: auto;
+}
+.git img {
+  height: 3.5rem;
+  width: auto;
+}
+.linked img {
+  height: 2rem;
+  width: auto;
+}
+.contact-details {
+  width: 80vw;
+  margin-top: 3rem;
+}
+.email {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.whatsapp {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.git {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.linked {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.contact-details a {
+  color: rgb(202, 195, 195);
+  text-decoration: none;
+}
+.contact-details img {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+.git img{
+  margin-left: -8px;
+}
